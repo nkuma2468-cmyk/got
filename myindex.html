@@ -1,44 +1,57 @@
+None selected
+
+Skip to content
+Using Gmail with screen readers
+1 of 821
+(no subject)
+Inbox
+
+Mr Hruthik
+11:18 AM (0 minutes ago)
+to me
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
     <title>Registration Form</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 50px;
-        }
-        .form-field {
-            margin-bottom: 15px;
-        }
-        label {
-            display: inline-block;
-            width: 100px;
-        }
-    </style>
 </head>
 <body>
 
-    <h2>Register</h2>
-    
-    <form action="#" method="POST">
-        <div class="form-field">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-        </div>
+<h2>Student Registration Form</h2>
 
-        <div class="form-field">
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-        </div>
+<form>
+    Name:
+    <input type="text" required><br><br>
 
-        <div class="form-field">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-        </div>
+    Email:
+    <input type="email" required><br><br>
 
-        <button type="submit">Submit</button>
-    </form>
+    Password:
+    <input type="password" required><br><br>
+
+    Gender:
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female
+    <br><br>
+
+    Date of Birth:
+    <input type="date"><br><br>
+
+    Course:
+    <select>
+        <option>CSE</option>
+        <option>ECE</option>
+        <option>ME</option>
+        <option>Civil</option>
+    </select><br><br>
+
+    Address:<br>
+    <textarea rows="3" cols="25"></textarea><br><br>
+
+    <input type="submit" value="Register">
+    <input type="reset" value="Clear">
+</form>
 
 </body>
 </html>
+
